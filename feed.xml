@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+	    <title>Tobias Coe - Test</title>
+	    <link>https://tobiascoe.net</link>
+	    <description>Test podcast</description>
+	    <language>en-gb</language>
+	    <author>Tobias Coe</author>
+	    <itunes:owner>
+		<itunes:name>Tobias Coe</itunes:name>
+		<itunes:email>spikcelflash@yahoo.com</itunes:email>
+	    </itunes:owner>
+	    <itunes:author>Tobias Coe</itunes:author>
+	    <itunes:category text="Comedy"/>
+	    <itunes:type>episodic</itunes:type>
+	    <itunes:image href="https://tobiascoe.net/speaksjapanese.png"/>
+	    <item>
+		<guid isPermaLink="true"/>
+		<title>Hello</title>
+		<description>Omg test episode no way</description>
+		<pubDate>Sat 9 Jul 00:03</pubDate>
+		<enclosure url="https://tobiascoe.net/hello.mp3" type="audio/mpeg"/>
+		<itunes:image href="https://tobiascoe.net/speaksjapanese.png" />
+	    </item>
+  	</channel>
+</rss>	
