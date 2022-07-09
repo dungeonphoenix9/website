@@ -20,7 +20,8 @@
 		<description>Omg test episode no way</description>
 		<pubDate>Sat, 09 Jul 2022 02:52:00 +0000</pubDate>
 		<enclosure url="https://tobiascoe.net/episodes/hello.mp3" type="audio/mpeg"/>
-		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png" />
+		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
+		<itunes:duration>2700</itunes:duration>
 	    </item>
   	</channel>
 </rss>	
