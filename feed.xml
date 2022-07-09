@@ -13,14 +13,14 @@
 	    <itunes:author>Tobias Coe</itunes:author>
 	    <itunes:category text="Comedy"/>
 	    <itunes:type>episodic</itunes:type>
-	    <itunes:image href="https://tobiascoe.net/speaksjapanese.png"/>
+	    <itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
 	    <item>
 		<guid isPermaLink="true"/>
 		<title>Hello</title>
 		<description>Omg test episode no way</description>
 		<pubDate>Sat 9 Jul 00:03</pubDate>
-		<enclosure url="https://tobiascoe.net/hello.mp3" type="audio/mpeg"/>
-		<itunes:image href="https://tobiascoe.net/speaksjapanese.png" />
+		<enclosure url="https://tobiascoe.net/episodes/hello.mp3" type="audio/mpeg"/>
+		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png" />
 	    </item>
   	</channel>
 </rss>	
