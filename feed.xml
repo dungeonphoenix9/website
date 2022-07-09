@@ -29,7 +29,7 @@
 		<pubDate>Sat, 09 Jul 2022 22:55:00 GMT</pubDate>
 		<enclosure url="https://tobiascoe.net/episodes/longer.mp3" type="audio/mpeg"/>
 		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
-		<psc:chapters/>
+		<psc:chapters>
 			<psc:chapter start="0" title="Intro"/>
 			<psc:chapter start="15" title="Ending"/>
 		</psc:chapters>
