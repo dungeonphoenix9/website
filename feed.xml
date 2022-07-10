@@ -21,6 +21,7 @@
 		<pubDate>Sat, 09 Jul 2022 22:55:00 GMT</pubDate>
 		<enclosure url="https://tobiascoe.net/episodes/longer.mp3" type="audio/mpeg"/>
 		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
+		<itunes:episodeType>full</itunes:episodeType>
 	    </item>
 	    <item>
 		<guid isPermaLink="true"/>
@@ -29,6 +30,7 @@
 		<pubDate>Sat, 09 Jul 2022 02:52:00 GMT</pubDate>
 		<enclosure url="https://tobiascoe.net/episodes/hello.mp3" type="audio/mpeg"/>
 		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
+		<itunes:episodeType>full</itunes:episodeType>
 	    </item>
   	</channel>
 </rss>	
