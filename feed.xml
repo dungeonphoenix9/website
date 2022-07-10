@@ -15,7 +15,7 @@
 	    <itunes:type>episodic</itunes:type>
 	    <itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
 	    <item>
-		<guid isPermaLink="true"/>
+		<guid>https://tobiascoe.net/episodes/longer.mp3</guid>
 		<title>Longer</title>
 		<description>Test n that</description>
 		<pubDate>Sat, 09 Jul 2022 22:55:00 GMT</pubDate>
@@ -24,7 +24,7 @@
 		<itunes:episodeType>full</itunes:episodeType>
 	    </item>
 	    <item>
-		<guid isPermaLink="true"/>
+		<guid>https://tobiascoe.net/episodes/hello.mp3</guid>
 		<title>Hello</title>
 		<description>Omg test episode no way</description>
 		<pubDate>Sat, 09 Jul 2022 02:52:00 GMT</pubDate>
