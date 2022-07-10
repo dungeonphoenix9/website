@@ -22,6 +22,7 @@
 		<enclosure url="https://tobiascoe.net/episodes/longer.mp3" type="audio/mpeg"/>
 		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
 		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:duration>00:19</itunes:duration>
 	    </item>
 	    <item>
 		<guid>https://tobiascoe.net/episodes/hello.mp3</guid>
@@ -31,6 +32,7 @@
 		<enclosure url="https://tobiascoe.net/episodes/hello.mp3" type="audio/mpeg"/>
 		<itunes:image href="https://tobiascoe.net/images/speaksjapanese.png"/>
 		<itunes:episodeType>full</itunes:episodeType>
+		<itunes:duration>00:1</itunes:duration>
 	    </item>
   	</channel>
 </rss>	
