@@ -7,6 +7,7 @@ body {
 
 #title {
     color: white;
+    font-family: 'Lato', sans-serif;
     padding-top: 10px;
 }
 
@@ -19,6 +20,7 @@ body {
 #content {
     font-size: 1.3rem;
     color: white;
+    padding-bottom: 10px;
 }
 
 #date {
