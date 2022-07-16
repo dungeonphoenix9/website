@@ -11,7 +11,6 @@ body {
 }
 
 .content {
-    background-color: blue;
     width: 700px;
     text-align: center;
     margin: auto;
@@ -19,6 +18,7 @@ body {
 
 #content {
     font-size: 1.3rem;
+    color: white;
 }
 
 .main-img {
