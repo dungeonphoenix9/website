@@ -1,13 +1,26 @@
 body {
     background-color: black;
     font-family: sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 #title {
     color: white;
+    padding-top: 10px;
 }
 
 .content {
     background-color: blue;
+    width: 700px;
     text-align: center;
+    margin: auto;
+}
+
+#content {
+    font-size: 1.3rem;
+}
+
+.main-img {
+    width: 700px;
 }
