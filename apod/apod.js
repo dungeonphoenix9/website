@@ -10,7 +10,7 @@ async function sendApiReq() {
 
 function useApiData(data) {
     document.querySelector("#title").innerHTML += data.title;
-    document.querySelector("#content").innerHTML += data.date;
+    document.querySelector("#date").innerHTML += data.date;
     document.querySelector("#content").innerHTML += `<img src="${data.url}" class="main-img" /> <br/>`;
     document.querySelector("#content").innerHTML += data.explanation;
 }
