@@ -21,6 +21,10 @@ body {
     color: white;
 }
 
+#date {
+    padding: 10px;
+}
+
 .main-img {
     width: 700px;
 }
