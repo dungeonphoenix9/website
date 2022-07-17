@@ -11,11 +11,12 @@ async function sendApiReq() {
 function useApiData(data) {
     document.querySelector("#title").innerHTML += data.title;
     document.querySelector("#date").innerHTML += data.date;
-    document.querySelector("#content").innerHTML += `<img src="${data.url}" class="main-img" /> <br/>`;
+    let url = data.url
+    document.querySelector("#content").innerHTML += `<img src="${url}" class="main-img" /> <br/>`;
     document.querySelector("#content").innerHTML += data.explanation;
 }
 
-function getAverageRGB(imgEl) {
+function getAverageRGB(url) {
 
     var blockSize = 5, // only visit every 5 pixels
         defaultRGB = {r:0,g:0,b:0}, // for non-supporting envs
@@ -34,7 +35,7 @@ function getAverageRGB(imgEl) {
     height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
     width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
 
-    context.drawImage(imgEl, 0, 0);
+    context.drawImage(url, 0, 0);
 
     try {
         data = context.getImageData(0, 0, width, height);
