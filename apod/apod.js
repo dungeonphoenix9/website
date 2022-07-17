@@ -18,6 +18,6 @@ function useApiData(data) {
 async function averageColor(data) {
     const color = await average(`${data.url}`, { amount: 1 })
     console.log(color)
-    document.body.style.backgroundColor = color;
+    document.getElementById('background').style.backgroundColor = color;
 }
 
