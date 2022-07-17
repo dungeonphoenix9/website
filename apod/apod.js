@@ -17,7 +17,7 @@ function useApiData(data) {
     document.querySelector("#content").innerHTML += data.explanation;
     average(`${data.url}`, { amount: 1 }).then(color => {
         console.log(color) 
-        document.getElementById('background').style.backgroundColor = color;
+        document.body.style.backgroundColor = color;
       })
 }
 
