@@ -32,8 +32,8 @@ function getAverageRGB(url) {
         return defaultRGB;
     }
 
-    height = canvas.height = imgEl.naturalHeight || imgEl.offsetHeight || imgEl.height;
-    width = canvas.width = imgEl.naturalWidth || imgEl.offsetWidth || imgEl.width;
+    height = canvas.height = url.naturalHeight || url.offsetHeight || url.height;
+    width = canvas.width = url.naturalWidth || url.offsetWidth || url.width;
 
     context.drawImage(url, 0, 0);
 
