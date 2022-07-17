@@ -1,3 +1,5 @@
+import {average} from 'color.js'
+
 function contentLoader() {
     sendApiReq();
 }
@@ -13,9 +15,10 @@ function useApiData(data) {
     document.querySelector("#date").innerHTML += data.date;
     document.querySelector("#content").innerHTML += `<img src="${data.url}" class="main-img" /> <br/>`;
     document.querySelector("#content").innerHTML += data.explanation;
-    const color = await average(`${data.url}`, { amount: 1 })
-    console.log(color)
-    document.getElementById('background').style.backgroundColor = color;
+    average(`${data.url}`, { amount: 1 }).then(color => {
+        console.log(color) 
+        document.getElementById('background').style.backgroundColor = color;
+      })
 }
 
 
