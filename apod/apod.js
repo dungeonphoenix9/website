@@ -16,4 +16,4 @@ function useApiData(data) {
 }
 
 const color = await average(`${data.url}`, { amount: 1 })
-document.querySelector("#back").innerHTML += color
+document.body.style.backgroundColor = color;
